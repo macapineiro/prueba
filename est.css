@@ -3,15 +3,11 @@
 .bluecolor{
 
 	background-color: #393e46 !important;
-	
-
 }
 
 .white{
 
 	color: white !important;
-
-
 }
 
 .color-white{
@@ -47,8 +43,6 @@
 	font-size: 20px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-
-
 }
 
 .contenedor{
@@ -62,8 +56,6 @@
 }
 
 .titulo{
-
-	
 	color: white;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
@@ -74,7 +66,6 @@
 .story-text {
 
 	width: 75%;
-	
 	color: white;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
@@ -111,17 +102,12 @@ video{
 	 border-radius: 25px;
 }
 
-
-
 .effect{
 	
 	 border-radius: 25px;
-
-
 }
 
 #text1{
-	
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
@@ -129,8 +115,6 @@ video{
 	margin: 0;
 	color: #363434;
 }
-
-
 
 #text2{
 	
@@ -142,8 +126,6 @@ video{
 	color: #363434;
 
 }
-
-
 
 .link-spotify{
 
@@ -163,20 +145,8 @@ video{
 	text-align: center;
 	font-size: 25px;
 	margin-top: 45px;
-
-
 }
 
-.machine-type{
-
-	padding-top: 2%;
-	font-family: 'Special Elite', cursive;
-	font-weight: 500;
-	text-align: center;
-	font-size: 15px;
-	color: #363434;
-	font-weight: bolder;
-}
 
 .form-contact{
 
@@ -225,13 +195,68 @@ footer{
 	float: left;
 	font-family: 'Poppins', sans-serif;
 	color: white;
-	
-
 }
 
 .social{
 
 	float: right;
+}
+
+
+
+.flex-container1 {
+  padding: 20px;
+  
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+.flex-item1 {
+
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin: 5px 5px 5px 0;
+}
+
+.img-effect1{
+
+	filter: grayscale(0);
+	box-shadow: 6px 6px 12px -5px rgba(0,0,0,0.52);
+	
+}
+
+.img-effect1:hover{
+
+	filter: grayscale(100%);
+}
+
+.machine-type{
+
+	padding-top: 2%;
+	font-family: 'Special Elite', cursive;
+	font-weight: 500;
+	text-align: center;
+	font-size: 15px;
+	color: #363434;
+	font-weight: bolder;
+}
+
+.machine-type:hover{
+
+	padding-top: 2%;
+	font-family: 'Special Elite', cursive;
+	font-weight: 500;
+	text-align: center;
+	font-size: 15px;
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
 }
 
 /* Responsive */
@@ -314,7 +339,7 @@ footer{
 }
 }
 
-@media (min-width: 322px) and (max-width: 450px) {
+@media (min-width: 322px) and (max-width: 500px) {
 
 .btn-page {
     
